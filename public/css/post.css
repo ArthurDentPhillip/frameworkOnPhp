@@ -1,0 +1,4 @@
+.col_height{
+    object-fit: cover !important;
+    height: 300px !important;
+}
