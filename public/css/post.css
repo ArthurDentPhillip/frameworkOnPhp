@@ -2,3 +2,16 @@
     object-fit: cover !important;
     height: 300px !important;
 }
+
+/* #selForm{
+    width: 0% !important;
+    max-width: 50% !important;
+} */
+
+.btn-outline-primary{
+    margin-top: -2% !important;
+}
+
+.selF{
+    width: 100px;
+}

@@ -1,6 +1,6 @@
 <?php 
 namespace app\models;
 
-class Post extends \vendor\core\base\Model{
+class Post extends \site1\core\base\Model{
 public $table = 'product';
 }

@@ -1,0 +1,665 @@
+[2023-08-03 21:15:27] Текст ошибки: Uncaught TypeError: set_exception_handler(): Argument #1 ($callback) must be a valid callback or null, class vendor\core\base\ErrorHandler does not have a method "exceptionHandler" in C:\OSPanel\domains\site1.local\vendor\core\base\ErrorHandler.php:16
+Stack trace:
+#0 C:\OSPanel\domains\site1.local\vendor\core\base\ErrorHandler.php(16): set_exception_handler()
+#1 C:\OSPanel\domains\site1.local\vendor\core\base\controller.php(13): vendor\core\base\ErrorHandler->__construct()
+#2 C:\OSPanel\domains\site1.local\vendor\core\Router.php(60): vendor\core\base\Controller->__construct()
+#3 C:\OSPanel\domains\site1.local\public\index.php(28): vendor\core\Router::dispatch()
+#4 {main}
+  thrown Файл: C:\OSPanel\domains\site1.local\vendor\core\base\ErrorHandler.php Строка: 16
+++++++++++++
+[2023-08-03 21:17:31] Текст ошибки: Undefined variable $ololo Файл: C:\OSPanel\domains\site1.local\app\controllers\postController.php Строка: 12
+++++++++++++
+[2023-08-03 21:30:32] Текст ошибки: Метод <b>app\controllers\postController::hhhhAction</b> не найден Файл: C:\OSPanel\domains\site1.local\vendor\core\Router.php Строка: 72
+++++++++++++
+[2023-08-03 21:31:59] Текст ошибки: Метод <b>app\controllers\postController::ddddAction</b> не найден Файл: C:\OSPanel\domains\site1.local\vendor\core\Router.php Строка: 72
+++++++++++++
+[2023-08-04 20:03:20] Текст ошибки: Undefined variable $test Файл: C:\OSPanel\domains\site1.local\app\controllers\postController.php Строка: 14
+++++++++++++
+[2023-08-04 20:05:32] Текст ошибки: Undefined variable $test Файл: C:\OSPanel\domains\site1.local\app\controllers\postController.php Строка: 14
+++++++++++++
+[2023-08-04 20:11:21] Текст ошибки: Undefined array key "data" Файл: C:\OSPanel\domains\site1.local\app\controllers\mainController.php Строка: 15
+++++++++++++
+[2023-08-04 20:12:00] Текст ошибки: Undefined array key "data" Файл: C:\OSPanel\domains\site1.local\app\controllers\mainController.php Строка: 15
+++++++++++++
+[2023-08-04 20:14:14] Текст ошибки: Undefined array key "data" Файл: C:\OSPanel\domains\site1.local\app\controllers\mainController.php Строка: 15
+++++++++++++
+[2023-08-04 20:38:07] Текст ошибки: Страница не найдена Файл: C:\OSPanel\domains\site1.local\vendor\core\base\ErrorHandler.php Строка: 78
+++++++++++++
+[2023-08-04 20:38:07] Текст ошибки: Undefined array key "data" Файл: C:\OSPanel\domains\site1.local\app\controllers\mainController.php Строка: 15
+++++++++++++
+[2023-08-04 20:39:40] Текст ошибки: Страница не найдена Файл: C:\OSPanel\domains\site1.local\vendor\core\base\ErrorHandler.php Строка: 79
+++++++++++++
+[2023-08-04 20:39:40] Текст ошибки: Undefined array key "data" Файл: C:\OSPanel\domains\site1.local\app\controllers\mainController.php Строка: 15
+++++++++++++
+[2023-08-04 21:01:21] Текст ошибки: Uncaught TypeError: set_exception_handler(): Argument #1 ($callback) must be a valid callback or null, function "exceptionHandler" not found or invalid function name in C:\OSPanel\domains\site1.local\vendor\core\base\ErrorHandler.php:17
+Stack trace:
+#0 C:\OSPanel\domains\site1.local\vendor\core\base\ErrorHandler.php(17): set_exception_handler()
+#1 C:\OSPanel\domains\site1.local\vendor\core\base\ErrorHandler.php(78): vendor\core\base\ErrorHandler->__construct()
+#2 C:\OSPanel\domains\site1.local\public\index.php(22): require_once('C:\\OSPanel\\doma...')
+#3 C:\OSPanel\domains\site1.local\vendor\core\App.php(9): {closure}()
+#4 C:\OSPanel\domains\site1.local\public\index.php(30): vendor\core\App->__construct()
+#5 {main}
+  thrown Файл: C:\OSPanel\domains\site1.local\vendor\core\base\ErrorHandler.php Строка: 17
+++++++++++++
+[2023-08-04 21:01:27] Текст ошибки: Uncaught TypeError: set_exception_handler(): Argument #1 ($callback) must be a valid callback or null, function "exceptionHandler" not found or invalid function name in C:\OSPanel\domains\site1.local\vendor\core\base\ErrorHandler.php:17
+Stack trace:
+#0 C:\OSPanel\domains\site1.local\vendor\core\base\ErrorHandler.php(17): set_exception_handler()
+#1 C:\OSPanel\domains\site1.local\vendor\core\base\ErrorHandler.php(78): vendor\core\base\ErrorHandler->__construct()
+#2 C:\OSPanel\domains\site1.local\public\index.php(22): require_once('C:\\OSPanel\\doma...')
+#3 C:\OSPanel\domains\site1.local\vendor\core\App.php(9): {closure}()
+#4 C:\OSPanel\domains\site1.local\public\index.php(30): vendor\core\App->__construct()
+#5 {main}
+  thrown Файл: C:\OSPanel\domains\site1.local\vendor\core\base\ErrorHandler.php Строка: 17
+++++++++++++
+[2023-08-04 21:02:45] Текст ошибки: Uncaught TypeError: set_exception_handler(): Argument #1 ($callback) must be a valid callback or null, function "exceptionHandler" not found or invalid function name in C:\OSPanel\domains\site1.local\vendor\core\base\ErrorHandler.php:17
+Stack trace:
+#0 C:\OSPanel\domains\site1.local\vendor\core\base\ErrorHandler.php(17): set_exception_handler()
+#1 C:\OSPanel\domains\site1.local\vendor\core\App.php(9): vendor\core\base\ErrorHandler->__construct()
+#2 C:\OSPanel\domains\site1.local\public\index.php(30): vendor\core\App->__construct()
+#3 {main}
+  thrown Файл: C:\OSPanel\domains\site1.local\vendor\core\base\ErrorHandler.php Строка: 17
+++++++++++++
+[2023-08-04 21:23:07] Текст ошибки: Undefined array key "data" Файл: C:\OSPanel\domains\site1.local\app\controllers\mainController.php Строка: 15
+++++++++++++
+[2023-08-04 22:38:01] Текст ошибки: Контроллер <b>app\controllers\hhhController</b> не найден! Файл: C:\OSPanel\domains\site1.local\vendor\core\Router.php Строка: 80
+++++++++++++
+[2023-08-04 22:38:38] Текст ошибки: Контроллер <b>app\controllers\bootstrapController</b> не найден! Файл: C:\OSPanel\domains\site1.local\vendor\core\Router.php Строка: 80
+++++++++++++
+[2023-08-04 22:38:54] Текст ошибки: Страница не найдена Файл: C:\OSPanel\domains\site1.local\vendor\core\Router.php Строка: 86
+++++++++++++
+[2023-08-04 22:40:00] Текст ошибки: Undefined variable $tmp Файл: C:\OSPanel\domains\site1.local\app\controllers\postController.php Строка: 16
+++++++++++++
+[2023-08-04 22:40:01] Текст ошибки: Undefined variable $tmp Файл: C:\OSPanel\domains\site1.local\app\controllers\postController.php Строка: 16
+++++++++++++
+[2023-08-04 22:40:22] Текст ошибки: Контроллер <b>app\controllers\bootstrapController</b> не найден! Файл: C:\OSPanel\domains\site1.local\vendor\core\Router.php Строка: 80
+++++++++++++
+[2023-08-04 22:41:39] Текст ошибки: Контроллер <b>app\controllers\bootstrapController</b> не найден! Файл: C:\OSPanel\domains\site1.local\vendor\core\Router.php Строка: 80
+++++++++++++
+[2023-08-04 22:41:47] Текст ошибки: Контроллер <b>app\controllers\hhhController</b> не найден! Файл: C:\OSPanel\domains\site1.local\vendor\core\Router.php Строка: 80
+++++++++++++
+[2023-08-04 22:50:37] Текст ошибки: Контроллер <b>app\controllers\hhhController</b> не найден! Файл: C:\OSPanel\domains\site1.local\vendor\core\Router.php Строка: 80
+++++++++++++
+[2023-08-04 22:50:39] Текст ошибки: Контроллер <b>app\controllers\hhhController</b> не найден! Файл: C:\OSPanel\domains\site1.local\vendor\core\Router.php Строка: 80
+++++++++++++
+[2023-08-04 22:50:58] Текст ошибки: Контроллер <b>app\controllers\bootstrapController</b> не найден! Файл: C:\OSPanel\domains\site1.local\vendor\core\Router.php Строка: 80
+++++++++++++
+[2023-08-04 22:51:00] Текст ошибки: Контроллер <b>app\controllers\bootstrapController</b> не найден! Файл: C:\OSPanel\domains\site1.local\vendor\core\Router.php Строка: 80
+++++++++++++
+[2023-08-04 22:52:00] Текст ошибки: Контроллер <b>app\controllers\hhhController</b> не найден! Файл: C:\OSPanel\domains\site1.local\vendor\core\Router.php Строка: 80
+++++++++++++
+[2023-08-04 22:52:08] Текст ошибки: Undefined array key "data" Файл: C:\OSPanel\domains\site1.local\app\controllers\mainController.php Строка: 15
+++++++++++++
+[2023-08-04 22:52:40] Текст ошибки: Undefined array key "data" Файл: C:\OSPanel\domains\site1.local\app\controllers\mainController.php Строка: 15
+++++++++++++
+[2023-08-04 22:52:41] Текст ошибки: Undefined array key "data" Файл: C:\OSPanel\domains\site1.local\app\controllers\mainController.php Строка: 15
+++++++++++++
+[2023-08-04 22:52:59] Текст ошибки: Undefined array key "data" Файл: C:\OSPanel\domains\site1.local\app\controllers\mainController.php Строка: 15
+++++++++++++
+[2023-08-04 22:53:20] Текст ошибки: Undefined array key "data" Файл: C:\OSPanel\domains\site1.local\app\controllers\mainController.php Строка: 15
+++++++++++++
+[2023-08-04 22:53:21] Текст ошибки: Undefined array key "data" Файл: C:\OSPanel\domains\site1.local\app\controllers\mainController.php Строка: 15
+++++++++++++
+[2023-08-04 22:53:39] Текст ошибки: Undefined array key "data" Файл: C:\OSPanel\domains\site1.local\app\controllers\mainController.php Строка: 15
+++++++++++++
+[2023-08-04 22:54:03] Текст ошибки: Undefined array key "data" Файл: C:\OSPanel\domains\site1.local\app\controllers\mainController.php Строка: 15
+++++++++++++
+[2023-08-04 22:54:04] Текст ошибки: Undefined array key "data" Файл: C:\OSPanel\domains\site1.local\app\controllers\mainController.php Строка: 15
+++++++++++++
+[2023-08-04 22:56:43] Текст ошибки: Страница не найдена Файл: C:\OSPanel\domains\site1.local\vendor\core\Router.php Строка: 64
+++++++++++++
+[2023-08-04 22:56:52] Текст ошибки: Страница не найдена Файл: C:\OSPanel\domains\site1.local\vendor\core\Router.php Строка: 64
+++++++++++++
+[2023-08-04 22:57:44] Текст ошибки: Контроллер <b>app\controllers\gggController</b> не найден! Файл: C:\OSPanel\domains\site1.local\vendor\core\Router.php Строка: 88
+++++++++++++
+[2023-08-04 22:57:54] Текст ошибки: Страница не найдена Файл: C:\OSPanel\domains\site1.local\vendor\core\Router.php Строка: 64
+++++++++++++
+[2023-08-04 22:57:59] Текст ошибки: Контроллер <b>app\controllers\bootstrapController</b> не найден! Файл: C:\OSPanel\domains\site1.local\vendor\core\Router.php Строка: 88
+++++++++++++
+[2023-08-04 22:58:02] Текст ошибки: Метод <b>app\controllers\postController::gggAction</b> не найден Файл: C:\OSPanel\domains\site1.local\vendor\core\Router.php Строка: 83
+++++++++++++
+[2023-08-04 23:00:48] Текст ошибки: Страница не найдена Файл: C:\OSPanel\domains\site1.local\vendor\core\Router.php Строка: 64
+++++++++++++
+[2023-08-04 23:01:36] Текст ошибки: Страница не найдена Файл: C:\OSPanel\domains\site1.local\vendor\core\Router.php Строка: 64
+++++++++++++
+[2023-08-04 23:02:07] Текст ошибки: Страница не найдена Файл: C:\OSPanel\domains\site1.local\vendor\core\Router.php Строка: 64
+++++++++++++
+[2023-08-04 23:02:44] Текст ошибки: Страница не найдена Файл: C:\OSPanel\domains\site1.local\vendor\core\Router.php Строка: 64
+++++++++++++
+[2023-08-04 23:03:39] Текст ошибки: Страница не найдена Файл: C:\OSPanel\domains\site1.local\vendor\core\Router.php Строка: 64
+++++++++++++
+[2023-08-04 23:06:46] Текст ошибки: Страница не найдена Файл: C:\OSPanel\domains\site1.local\vendor\core\Router.php Строка: 64
+++++++++++++
+[2023-08-04 23:07:13] Текст ошибки: Страница не найдена Файл: C:\OSPanel\domains\site1.local\vendor\core\Router.php Строка: 64
+++++++++++++
+[2023-08-04 23:08:08] Текст ошибки: Страница не найдена Файл: C:\OSPanel\domains\site1.local\vendor\core\Router.php Строка: 64
+++++++++++++
+[2023-08-04 23:10:39] Текст ошибки: Страница не найдена Файл: C:\OSPanel\domains\site1.local\vendor\core\Router.php Строка: 64
+++++++++++++
+[2023-08-04 23:11:23] Текст ошибки: Контроллер <b>app\controllers\hhhController</b> не найден! Файл: C:\OSPanel\domains\site1.local\vendor\core\Router.php Строка: 89
+++++++++++++
+[2023-08-04 23:12:18] Текст ошибки: Контроллер <b>app\controllers\hhhController</b> не найден! Файл: C:\OSPanel\domains\site1.local\vendor\core\Router.php Строка: 89
+++++++++++++
+[2023-08-04 23:12:40] Текст ошибки: Страница не найдена Файл: C:\OSPanel\domains\site1.local\vendor\core\Router.php Строка: 64
+++++++++++++
+[2023-08-04 23:13:43] Текст ошибки: Страница не найдена Файл: C:\OSPanel\domains\site1.local\vendor\core\Router.php Строка: 64
+++++++++++++
+[2023-08-04 23:14:43] Текст ошибки: Страница не найдена Файл: C:\OSPanel\domains\site1.local\vendor\core\Router.php Строка: 64
+++++++++++++
+[2023-08-04 23:15:19] Текст ошибки: Контроллер <b>app\controllers\hhhController</b> не найден! Файл: C:\OSPanel\domains\site1.local\vendor\core\Router.php Строка: 90
+++++++++++++
+[2023-08-04 23:15:28] Текст ошибки: Undefined array key "data" Файл: C:\OSPanel\domains\site1.local\app\controllers\mainController.php Строка: 15
+++++++++++++
+[2023-08-04 23:16:08] Текст ошибки: Страница не найдена Файл: C:\OSPanel\domains\site1.local\vendor\core\Router.php Строка: 64
+++++++++++++
+[2023-08-04 23:16:17] Текст ошибки: Контроллер <b>app\controllers\hhhController</b> не найден! Файл: C:\OSPanel\domains\site1.local\vendor\core\Router.php Строка: 90
+++++++++++++
+[2023-08-04 23:16:22] Текст ошибки: Страница не найдена Файл: C:\OSPanel\domains\site1.local\vendor\core\Router.php Строка: 64
+++++++++++++
+[2023-08-04 23:16:29] Текст ошибки: Метод <b>app\controllers\postController::hhhhAction</b> не найден Файл: C:\OSPanel\domains\site1.local\vendor\core\Router.php Строка: 85
+++++++++++++
+[2023-08-04 23:16:47] Текст ошибки: Контроллер <b>app\controllers\bootstrapController</b> не найден! Файл: C:\OSPanel\domains\site1.local\vendor\core\Router.php Строка: 90
+++++++++++++
+[2023-08-04 23:19:41] Текст ошибки: Контроллер <b>app\controllers\bootstrapController</b> не найден! Файл: C:\OSPanel\domains\site1.local\vendor\core\Router.php Строка: 88
+++++++++++++
+[2023-08-04 23:19:46] Текст ошибки: Страница не найдена Файл: C:\OSPanel\domains\site1.local\vendor\core\Router.php Строка: 62
+++++++++++++
+[2023-08-04 23:19:51] Текст ошибки: Контроллер <b>app\controllers\hhhController</b> не найден! Файл: C:\OSPanel\domains\site1.local\vendor\core\Router.php Строка: 88
+++++++++++++
+[2023-08-04 23:20:22] Текст ошибки: Контроллер <b>app\controllers\hhhController</b> не найден! Файл: C:\OSPanel\domains\site1.local\vendor\core\Router.php Строка: 88
+++++++++++++
+[2023-08-04 23:21:21] Текст ошибки: Контроллер <b>app\controllers\bootstrapController</b> не найден! Файл: C:\OSPanel\domains\site1.local\vendor\core\Router.php Строка: 88
+++++++++++++
+[2023-08-04 23:21:25] Текст ошибки: Контроллер <b>app\controllers\bootstrapController</b> не найден! Файл: C:\OSPanel\domains\site1.local\vendor\core\Router.php Строка: 88
+++++++++++++
+[2023-08-04 23:21:27] Текст ошибки: Контроллер <b>app\controllers\bootstrapController</b> не найден! Файл: C:\OSPanel\domains\site1.local\vendor\core\Router.php Строка: 88
+++++++++++++
+[2023-08-04 23:21:28] Текст ошибки: Контроллер <b>app\controllers\bootstrapController</b> не найден! Файл: C:\OSPanel\domains\site1.local\vendor\core\Router.php Строка: 88
+++++++++++++
+[2023-08-04 23:21:30] Текст ошибки: Контроллер <b>app\controllers\bootstrapController</b> не найден! Файл: C:\OSPanel\domains\site1.local\vendor\core\Router.php Строка: 88
+++++++++++++
+[2023-08-04 23:21:31] Текст ошибки: Контроллер <b>app\controllers\bootstrapController</b> не найден! Файл: C:\OSPanel\domains\site1.local\vendor\core\Router.php Строка: 88
+++++++++++++
+[2023-08-04 23:21:33] Текст ошибки: Контроллер <b>app\controllers\bootstrapController</b> не найден! Файл: C:\OSPanel\domains\site1.local\vendor\core\Router.php Строка: 88
+++++++++++++
+[2023-08-04 23:22:36] Текст ошибки: Контроллер <b>app\controllers\bootstrapController</b> не найден! Файл: C:\OSPanel\domains\site1.local\vendor\core\Router.php Строка: 88
+++++++++++++
+[2023-08-05 06:21:51] Текст ошибки: Контроллер <b>app\controllers\bootstrapController</b> не найден! Файл: C:\OSPanel\domains\site1.local\vendor\core\Router.php Строка: 88
+++++++++++++
+[2023-08-05 06:21:56] Текст ошибки: Страница не найдена Файл: C:\OSPanel\domains\site1.local\vendor\core\Router.php Строка: 62
+++++++++++++
+[2023-08-05 06:22:03] Текст ошибки: Контроллер <b>app\controllers\hhhController</b> не найден! Файл: C:\OSPanel\domains\site1.local\vendor\core\Router.php Строка: 88
+++++++++++++
+[2023-08-05 06:22:18] Текст ошибки: Метод <b>app\controllers\postController::aaaAction</b> не найден Файл: C:\OSPanel\domains\site1.local\vendor\core\Router.php Строка: 83
+++++++++++++
+[2023-08-07 19:11:32] Текст ошибки: Контроллер <b>app\controllers\bootstrapController</b> не найден! Файл: C:\OSPanel\domains\site1.local\vendor\core\Router.php Строка: 88
+++++++++++++
+[2023-08-07 19:24:19] Текст ошибки: require(C:\OSPanel\domains\site1.local/vendor/libs/rb.php): Failed to open stream: No such file or directory Файл: C:\OSPanel\domains\site1.local\vendor\site1\core\Db.php Строка: 20
+++++++++++++
+[2023-08-07 19:30:50] Текст ошибки: require(C:\OSPanel\domains\site1.local/vendor/libs/rb.php): Failed to open stream: No such file or directory Файл: C:\OSPanel\domains\site1.local\vendor\site1\core\Db.php Строка: 20
+++++++++++++
+[2023-08-07 19:31:13] Текст ошибки: require(C:\OSPanel\domains\site1.local/vendor/libs/rb.php): Failed to open stream: No such file or directory Файл: C:\OSPanel\domains\site1.local\vendor\site1\core\Db.php Строка: 20
+++++++++++++
+[2023-08-07 19:32:46] Текст ошибки: require(C:\OSPanel\domains\site1.local/vendor/libs/rb.php): Failed to open stream: No such file or directory Файл: C:\OSPanel\domains\site1.local\vendor\site1\core\Db.php Строка: 20
+++++++++++++
+[2023-08-07 19:34:25] Текст ошибки: require(C:\OSPanel\domains\site1.local/vendor/libs/rb.php): Failed to open stream: No such file or directory Файл: C:\OSPanel\domains\site1.local\vendor\site1\core\Db.php Строка: 20
+++++++++++++
+[2023-08-07 19:34:26] Текст ошибки: require(C:\OSPanel\domains\site1.local/vendor/libs/rb.php): Failed to open stream: No such file or directory Файл: C:\OSPanel\domains\site1.local\vendor\site1\core\Db.php Строка: 20
+++++++++++++
+[2023-08-07 19:34:55] Текст ошибки: require(C:\OSPanel\domains\site1.local/vendor/libs/rb.php): Failed to open stream: No such file or directory Файл: C:\OSPanel\domains\site1.local\vendor\site1\core\Db.php Строка: 20
+++++++++++++
+[2023-08-07 19:34:56] Текст ошибки: require(C:\OSPanel\domains\site1.local/vendor/libs/rb.php): Failed to open stream: No such file or directory Файл: C:\OSPanel\domains\site1.local\vendor\site1\core\Db.php Строка: 20
+++++++++++++
+[2023-08-07 19:34:56] Текст ошибки: require(C:\OSPanel\domains\site1.local/vendor/libs/rb.php): Failed to open stream: No such file or directory Файл: C:\OSPanel\domains\site1.local\vendor\site1\core\Db.php Строка: 20
+++++++++++++
+[2023-08-07 19:36:02] Текст ошибки: require(C:\OSPanel\domains\site1.local/site1/libs/rb.php): Failed to open stream: No such file or directory Файл: C:\OSPanel\domains\site1.local\vendor\site1\core\Db.php Строка: 20
+++++++++++++
+[2023-08-07 19:40:14] Текст ошибки: require(C:\OSPanel\domains\site1.local/site1/libs/rb.php): Failed to open stream: No such file or directory Файл: C:\OSPanel\domains\site1.local\vendor\site1\core\Db.php Строка: 20
+++++++++++++
+[2023-08-07 19:43:01] Текст ошибки: require(C:\OSPanel\domains\site1.local/site1/libs/rb.php): Failed to open stream: No such file or directory Файл: C:\OSPanel\domains\site1.local\vendor\site1\core\Db.php Строка: 20
+++++++++++++
+[2023-08-07 19:46:43] Текст ошибки: require(C:\OSPanel\domains\site1.local/site1/libs/rb.php): Failed to open stream: No such file or directory Файл: C:\OSPanel\domains\site1.local\vendor\site1\core\Db.php Строка: 20
+++++++++++++
+[2023-08-07 19:49:09] Текст ошибки: Контроллер <b>app\controllers\bootstrapController</b> не найден! Файл: C:\OSPanel\domains\site1.local\vendor\site1\core\Router.php Строка: 88
+++++++++++++
+[2023-08-07 19:49:15] Текст ошибки: Контроллер <b>app\controllers\bootstrapController</b> не найден! Файл: C:\OSPanel\domains\site1.local\vendor\site1\core\Router.php Строка: 88
+++++++++++++
+[2023-08-07 19:49:17] Текст ошибки: Контроллер <b>app\controllers\bootstrapController</b> не найден! Файл: C:\OSPanel\domains\site1.local\vendor\site1\core\Router.php Строка: 88
+++++++++++++
+[2023-08-07 19:49:18] Текст ошибки: Контроллер <b>app\controllers\bootstrapController</b> не найден! Файл: C:\OSPanel\domains\site1.local\vendor\site1\core\Router.php Строка: 88
+++++++++++++
+[2023-08-07 19:49:21] Текст ошибки: Контроллер <b>app\controllers\bootstrapController</b> не найден! Файл: C:\OSPanel\domains\site1.local\vendor\site1\core\Router.php Строка: 88
+++++++++++++
+[2023-08-07 19:49:24] Текст ошибки: Контроллер <b>app\controllers\bootstrapController</b> не найден! Файл: C:\OSPanel\domains\site1.local\vendor\site1\core\Router.php Строка: 88
+++++++++++++
+[2023-08-08 18:11:30] Текст ошибки: Контроллер <b>app\controllers\bootstrapController</b> не найден! Файл: C:\OSPanel\domains\site1.local\vendor\site1\core\Router.php Строка: 88
+++++++++++++
+[2023-08-08 18:59:09] Текст ошибки: Контроллер <b>app\controllers\bootstrapController</b> не найден! Файл: C:\OSPanel\domains\site1.local\vendor\site1\core\Router.php Строка: 88
+++++++++++++
+[2023-08-08 18:59:10] Текст ошибки: Undefined array key "controller" Файл: C:\OSPanel\domains\site1.local\vendor\site1\core\base\view.php Строка: 22
+++++++++++++
+[2023-08-08 18:59:14] Текст ошибки: Undefined array key "controller" Файл: C:\OSPanel\domains\site1.local\vendor\site1\core\base\view.php Строка: 22
+++++++++++++
+[2023-08-08 18:59:21] Текст ошибки: Undefined array key "controller" Файл: C:\OSPanel\domains\site1.local\vendor\site1\core\base\view.php Строка: 22
+++++++++++++
+[2023-08-08 19:01:35] Текст ошибки: Контроллер <b>app\controllers\bootstrapController</b> не найден! Файл: C:\OSPanel\domains\site1.local\vendor\site1\core\Router.php Строка: 88
+++++++++++++
+[2023-08-08 19:32:14] Текст ошибки: Контроллер <b>app\controllers\bootstrapController</b> не найден! Файл: C:\OSPanel\domains\site1.local\vendor\site1\core\Router.php Строка: 88
+++++++++++++
+[2023-08-12 08:04:21] Текст ошибки: Контроллер <b>app\controllers\bootstrapController</b> не найден! Файл: C:\OSPanel\domains\site1.local\vendor\site1\core\Router.php Строка: 88
+++++++++++++
+[2023-08-12 08:49:20] Текст ошибки: Контроллер <b>app\controllers\bootstrapController</b> не найден! Файл: C:\OSPanel\domains\site1.local\vendor\site1\core\Router.php Строка: 88
+++++++++++++
+[2023-08-12 08:49:31] Текст ошибки: Allowed memory size of 1610612736 bytes exhausted (tried to allocate 4096 bytes) Файл: C:\OSPanel\domains\site1.local\vendor\site1\core\base\Model.php Строка: 16
+++++++++++++
+[2023-08-12 11:10:28] Текст ошибки: Constant expression contains invalid operations Файл: C:\OSPanel\domains\site1.local\vendor\site1\core\base\Model.php Строка: 38
+++++++++++++
+[2023-08-12 14:42:53] Текст ошибки: Undefined array key "error" Файл: C:\OSPanel\domains\site1.local\app\views\User\signup.php Строка: 3
+++++++++++++
+[2023-08-12 14:46:44] Текст ошибки: Array to string conversion Файл: C:\OSPanel\domains\site1.local\app\models\user.php Строка: 36
+++++++++++++
+[2023-08-12 14:59:14] Текст ошибки: foreach() argument must be of type array|object, string given Файл: C:\OSPanel\domains\site1.local\app\views\User\signup.php Строка: 1
+++++++++++++
+[2023-08-12 15:00:19] Текст ошибки: foreach() argument must be of type array|object, string given Файл: C:\OSPanel\domains\site1.local\app\views\User\signup.php Строка: 1
+++++++++++++
+[2023-08-12 15:00:33] Текст ошибки: Undefined variable $array Файл: C:\OSPanel\domains\site1.local\app\views\User\signup.php Строка: 1
+++++++++++++
+[2023-08-12 15:02:22] Текст ошибки: Undefined variable $errors Файл: C:\OSPanel\domains\site1.local\app\views\User\signup.php Строка: 1
+++++++++++++
+[2023-08-12 15:03:02] Текст ошибки: foreach() argument must be of type array|object, string given Файл: C:\OSPanel\domains\site1.local\app\views\User\signup.php Строка: 1
+++++++++++++
+[2023-08-12 15:04:06] Текст ошибки: Undefined variable $attay Файл: C:\OSPanel\domains\site1.local\app\views\User\signup.php Строка: 1
+++++++++++++
+[2023-08-12 15:04:23] Текст ошибки: Undefined variable $array Файл: C:\OSPanel\domains\site1.local\app\views\User\signup.php Строка: 1
+++++++++++++
+[2023-08-12 15:07:19] Текст ошибки: foreach() argument must be of type array|object, string given Файл: C:\OSPanel\domains\site1.local\app\views\User\signup.php Строка: 5
+++++++++++++
+[2023-08-12 15:07:42] Текст ошибки: foreach() argument must be of type array|object, string given Файл: C:\OSPanel\domains\site1.local\app\views\User\signup.php Строка: 5
+++++++++++++
+[2023-08-12 15:08:01] Текст ошибки: foreach() argument must be of type array|object, string given Файл: C:\OSPanel\domains\site1.local\app\views\User\signup.php Строка: 5
+++++++++++++
+[2023-08-12 15:08:31] Текст ошибки: foreach() argument must be of type array|object, string given Файл: C:\OSPanel\domains\site1.local\app\views\User\signup.php Строка: 5
+++++++++++++
+[2023-08-12 15:09:45] Текст ошибки: Undefined variable $error Файл: C:\OSPanel\domains\site1.local\app\views\User\signup.php Строка: 2
+++++++++++++
+[2023-08-12 15:10:02] Текст ошибки: foreach() argument must be of type array|object, string given Файл: C:\OSPanel\domains\site1.local\app\views\User\signup.php Строка: 5
+++++++++++++
+[2023-08-12 17:05:21] Текст ошибки: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '1111' for key 'user.login' Файл: C:\OSPanel\domains\site1.local\vendor\site1\libs\rb.php Строка: 838
+++++++++++++
+[2023-08-12 17:16:00] Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT1 LIMIT 1   -- keep-cache' at line 1 Файл: C:\OSPanel\domains\site1.local\vendor\site1\libs\rb.php Строка: 838
+++++++++++++
+[2023-08-12 17:31:25] Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT1 LIMIT 1   -- keep-cache' at line 1 Файл: C:\OSPanel\domains\site1.local\vendor\site1\libs\rb.php Строка: 838
+++++++++++++
+[2023-08-12 17:36:18] Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT1 LIMIT 1   -- keep-cache' at line 1 Файл: C:\OSPanel\domains\site1.local\vendor\site1\libs\rb.php Строка: 838
+++++++++++++
+[2023-08-12 17:50:34] Текст ошибки: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '42onearth@gmail.com' for key 'user.email' Файл: C:\OSPanel\domains\site1.local\vendor\site1\libs\rb.php Строка: 838
+++++++++++++
+[2023-08-12 17:51:01] Текст ошибки: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '42onearth@gmail.com' for key 'user.email' Файл: C:\OSPanel\domains\site1.local\vendor\site1\libs\rb.php Строка: 838
+++++++++++++
+[2023-08-12 18:03:23] Текст ошибки: foreach() argument must be of type array|object, string given Файл: C:\OSPanel\domains\site1.local\app\models\user.php Строка: 29
+++++++++++++
+[2023-08-12 18:03:45] Текст ошибки: foreach() argument must be of type array|object, string given Файл: C:\OSPanel\domains\site1.local\app\models\user.php Строка: 29
+++++++++++++
+[2023-08-12 18:04:08] Текст ошибки: foreach() argument must be of type array|object, string given Файл: C:\OSPanel\domains\site1.local\app\models\user.php Строка: 29
+++++++++++++
+[2023-08-12 18:45:28] Текст ошибки: Контроллер <b>app\controllers\bootstrapController</b> не найден! Файл: C:\OSPanel\domains\site1.local\vendor\site1\core\Router.php Строка: 88
+++++++++++++
+[2023-08-12 19:08:20] Текст ошибки: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'shop.books' doesn't exist Файл: C:\OSPanel\domains\site1.local\vendor\site1\libs\rb.php Строка: 838
+++++++++++++
+[2023-08-12 19:53:10] Текст ошибки: Uncaught TypeError: site1\core\base\ErrorHandler::exceptionHandler(): Argument #1 ($ex) must be of type Exception, TypeError given in C:\OSPanel\domains\site1.local\vendor\site1\core\base\ErrorHandler.php:62
+Stack trace:
+#0 [internal function]: site1\core\base\ErrorHandler::exceptionHandler()
+#1 {main}
+  thrown Файл: C:\OSPanel\domains\site1.local\vendor\site1\core\base\ErrorHandler.php Строка: 62
+++++++++++++
+[2023-08-12 19:54:45] Текст ошибки: Undefined array key "password" Файл: C:\OSPanel\domains\site1.local\app\models\user.php Строка: 90
+++++++++++++
+[2023-08-12 20:13:10] Текст ошибки: Контроллер <b>app\controllers\bootstrapController</b> не найден! Файл: C:\OSPanel\domains\site1.local\vendor\site1\core\Router.php Строка: 88
+++++++++++++
+[2023-08-12 20:18:47] Текст ошибки: Контроллер <b>app\controllers\bootstrapController</b> не найден! Файл: C:\OSPanel\domains\site1.local\vendor\site1\core\Router.php Строка: 88
+++++++++++++
+[2023-08-12 20:18:49] Текст ошибки: Метод <b>app\controllers\userController::signup'Action</b> не найден Файл: C:\OSPanel\domains\site1.local\vendor\site1\core\Router.php Строка: 83
+++++++++++++
+[2023-08-12 20:19:29] Текст ошибки: Метод <b>app\controllers\userController::signup'Action</b> не найден Файл: C:\OSPanel\domains\site1.local\vendor\site1\core\Router.php Строка: 83
+++++++++++++
+[2023-08-12 20:19:31] Текст ошибки: Метод <b>app\controllers\userController::signup'Action</b> не найден Файл: C:\OSPanel\domains\site1.local\vendor\site1\core\Router.php Строка: 83
+++++++++++++
+[2023-08-12 20:19:34] Текст ошибки: Контроллер <b>app\controllers\bootstrapController</b> не найден! Файл: C:\OSPanel\domains\site1.local\vendor\site1\core\Router.php Строка: 88
+++++++++++++
+[2023-08-12 20:20:22] Текст ошибки: Контроллер <b>app\controllers\bootstrapController</b> не найден! Файл: C:\OSPanel\domains\site1.local\vendor\site1\core\Router.php Строка: 88
+++++++++++++
+[2023-08-12 20:20:29] Текст ошибки: Контроллер <b>app\controllers\bootstrapController</b> не найден! Файл: C:\OSPanel\domains\site1.local\vendor\site1\core\Router.php Строка: 88
+++++++++++++
+[2023-08-12 20:37:31] Текст ошибки: Undefined variable $_SESSION Файл: C:\OSPanel\domains\site1.local\app\controllers\postController.php Строка: 15
+++++++++++++
+[2023-08-12 20:38:43] Текст ошибки: Контроллер <b>app\controllers\bootstrapController</b> не найден! Файл: C:\OSPanel\domains\site1.local\vendor\site1\core\Router.php Строка: 88
+++++++++++++
+[2023-08-12 20:39:44] Текст ошибки: Undefined array key "reg" Файл: C:\OSPanel\domains\site1.local\app\controllers\postController.php Строка: 16
+++++++++++++
+[2023-08-12 20:43:24] Текст ошибки: Контроллер <b>app\controllers\bootstrapController</b> не найден! Файл: C:\OSPanel\domains\site1.local\vendor\site1\core\Router.php Строка: 88
+++++++++++++
+[2023-08-12 20:44:14] Текст ошибки: Контроллер <b>app\controllers\bootstrapController</b> не найден! Файл: C:\OSPanel\domains\site1.local\vendor\site1\core\Router.php Строка: 88
+++++++++++++
+[2023-08-12 20:48:56] Текст ошибки: Контроллер <b>app\controllers\bootstrapController</b> не найден! Файл: C:\OSPanel\domains\site1.local\vendor\site1\core\Router.php Строка: 88
+++++++++++++
+[2023-08-12 20:49:07] Текст ошибки: Контроллер <b>app\controllers\bootstrapController</b> не найден! Файл: C:\OSPanel\domains\site1.local\vendor\site1\core\Router.php Строка: 88
+++++++++++++
+[2023-08-12 20:49:52] Текст ошибки: Контроллер <b>app\controllers\bootstrapController</b> не найден! Файл: C:\OSPanel\domains\site1.local\vendor\site1\core\Router.php Строка: 88
+++++++++++++
+[2023-08-12 20:54:49] Текст ошибки: Контроллер <b>app\controllers\bootstrapController</b> не найден! Файл: C:\OSPanel\domains\site1.local\vendor\site1\core\Router.php Строка: 88
+++++++++++++
+[2023-08-12 20:54:50] Текст ошибки: Undefined variable $_SESSION Файл: C:\OSPanel\domains\site1.local\app\controllers\userController.php Строка: 10
+++++++++++++
+[2023-08-12 20:56:43] Текст ошибки: Контроллер <b>app\controllers\bootstrapController</b> не найден! Файл: C:\OSPanel\domains\site1.local\vendor\site1\core\Router.php Строка: 88
+++++++++++++
+[2023-08-13 20:14:18] Текст ошибки: Контроллер <b>app\controllers\bootstrapController</b> не найден! Файл: C:\OSPanel\domains\site1.local\vendor\site1\core\Router.php Строка: 88
+++++++++++++
+[2023-08-13 20:26:36] Текст ошибки: SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'password' at row 1 Файл: C:\OSPanel\domains\site1.local\vendor\site1\libs\rb.php Строка: 838
+++++++++++++
+[2023-08-13 20:26:58] Текст ошибки: SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'password' at row 1 Файл: C:\OSPanel\domains\site1.local\vendor\site1\libs\rb.php Строка: 838
+++++++++++++
+[2023-08-13 20:27:36] Текст ошибки: SQLSTATE[HY000]: General error: 1364 Field 'roles' doesn't have a default value Файл: C:\OSPanel\domains\site1.local\vendor\site1\libs\rb.php Строка: 838
+++++++++++++
+[2023-08-13 20:39:18] Текст ошибки: Контроллер <b>app\controllers\bootstrapController</b> не найден! Файл: C:\OSPanel\domains\site1.local\vendor\site1\core\Router.php Строка: 88
+++++++++++++
+[2023-08-13 20:39:24] Текст ошибки: Контроллер <b>app\controllers\bootstrapController</b> не найден! Файл: C:\OSPanel\domains\site1.local\vendor\site1\core\Router.php Строка: 88
+++++++++++++
+[2023-08-13 20:39:26] Текст ошибки: Контроллер <b>app\controllers\bootstrapController</b> не найден! Файл: C:\OSPanel\domains\site1.local\vendor\site1\core\Router.php Строка: 88
+++++++++++++
+[2023-08-13 20:39:30] Текст ошибки: Контроллер <b>app\controllers\bootstrapController</b> не найден! Файл: C:\OSPanel\domains\site1.local\vendor\site1\core\Router.php Строка: 88
+++++++++++++
+[2023-08-13 20:39:32] Текст ошибки: Контроллер <b>app\controllers\bootstrapController</b> не найден! Файл: C:\OSPanel\domains\site1.local\vendor\site1\core\Router.php Строка: 88
+++++++++++++
+[2023-08-13 20:39:33] Текст ошибки: Контроллер <b>app\controllers\bootstrapController</b> не найден! Файл: C:\OSPanel\domains\site1.local\vendor\site1\core\Router.php Строка: 88
+++++++++++++
+[2023-08-13 20:39:36] Текст ошибки: Контроллер <b>app\controllers\bootstrapController</b> не найден! Файл: C:\OSPanel\domains\site1.local\vendor\site1\core\Router.php Строка: 88
+++++++++++++
+[2023-08-13 20:39:36] Текст ошибки: Контроллер <b>app\controllers\bootstrapController</b> не найден! Файл: C:\OSPanel\domains\site1.local\vendor\site1\core\Router.php Строка: 88
+++++++++++++
+[2023-08-13 20:39:37] Текст ошибки: Контроллер <b>app\controllers\bootstrapController</b> не найден! Файл: C:\OSPanel\domains\site1.local\vendor\site1\core\Router.php Строка: 88
+++++++++++++
+[2023-08-13 20:39:37] Текст ошибки: Контроллер <b>app\controllers\bootstrapController</b> не найден! Файл: C:\OSPanel\domains\site1.local\vendor\site1\core\Router.php Строка: 88
+++++++++++++
+[2023-08-13 20:39:38] Текст ошибки: Контроллер <b>app\controllers\bootstrapController</b> не найден! Файл: C:\OSPanel\domains\site1.local\vendor\site1\core\Router.php Строка: 88
+++++++++++++
+[2023-08-13 20:39:38] Текст ошибки: Undefined variable $count Файл: C:\OSPanel\domains\site1.local\app\views\Cart\show.php Строка: 29
+++++++++++++
+[2023-08-13 20:42:21] Текст ошибки: Контроллер <b>app\controllers\bootstrapController</b> не найден! Файл: C:\OSPanel\domains\site1.local\vendor\site1\core\Router.php Строка: 88
+++++++++++++
+[2023-08-13 20:42:24] Текст ошибки: Контроллер <b>app\controllers\bootstrapController</b> не найден! Файл: C:\OSPanel\domains\site1.local\vendor\site1\core\Router.php Строка: 88
+++++++++++++
+[2023-08-13 20:42:28] Текст ошибки: Контроллер <b>app\controllers\bootstrapController</b> не найден! Файл: C:\OSPanel\domains\site1.local\vendor\site1\core\Router.php Строка: 88
+++++++++++++
+[2023-08-13 20:42:29] Текст ошибки: Контроллер <b>app\controllers\bootstrapController</b> не найден! Файл: C:\OSPanel\domains\site1.local\vendor\site1\core\Router.php Строка: 88
+++++++++++++
+[2023-08-13 20:43:26] Текст ошибки: Контроллер <b>app\controllers\bootstrapController</b> не найден! Файл: C:\OSPanel\domains\site1.local\vendor\site1\core\Router.php Строка: 88
+++++++++++++
+[2023-08-13 20:48:02] Текст ошибки: Undefined array key 0 Файл: C:\OSPanel\domains\site1.local\app\controllers\postController.php Строка: 20
+++++++++++++
+[2023-08-13 20:48:06] Текст ошибки: Undefined array key 0 Файл: C:\OSPanel\domains\site1.local\app\controllers\cartController.php Строка: 18
+++++++++++++
+[2023-08-13 20:55:17] Текст ошибки: Undefined array key "login" Файл: C:\OSPanel\domains\site1.local\app\controllers\postController.php Строка: 15
+++++++++++++
+[2023-08-13 20:56:10] Текст ошибки: Undefined array key 0 Файл: C:\OSPanel\domains\site1.local\app\controllers\postController.php Строка: 24
+++++++++++++
+[2023-08-13 20:56:45] Текст ошибки: session_start(): Ignoring session_start() because a session is already active Файл: C:\OSPanel\domains\site1.local\app\views\inc\headerPost.php Строка: 1
+++++++++++++
+[2023-08-13 20:57:20] Текст ошибки: Контроллер <b>app\controllers\bootstrapController</b> не найден! Файл: C:\OSPanel\domains\site1.local\vendor\site1\core\Router.php Строка: 88
+++++++++++++
+[2023-08-13 20:57:53] Текст ошибки: Контроллер <b>app\controllers\bootstrapController</b> не найден! Файл: C:\OSPanel\domains\site1.local\vendor\site1\core\Router.php Строка: 88
+++++++++++++
+[2023-08-13 21:00:52] Текст ошибки: Контроллер <b>app\controllers\bootstrapController</b> не найден! Файл: C:\OSPanel\domains\site1.local\vendor\site1\core\Router.php Строка: 88
+++++++++++++
+[2023-08-13 21:00:57] Текст ошибки: Метод <b>app\controllers\postController::loginAction</b> не найден Файл: C:\OSPanel\domains\site1.local\vendor\site1\core\Router.php Строка: 83
+++++++++++++
+[2023-08-13 21:01:13] Текст ошибки: Контроллер <b>app\controllers\bootstrapController</b> не найден! Файл: C:\OSPanel\domains\site1.local\vendor\site1\core\Router.php Строка: 88
+++++++++++++
+[2023-08-13 21:01:36] Текст ошибки: session_start(): Ignoring session_start() because a session is already active Файл: C:\OSPanel\domains\site1.local\app\views\inc\headerPost.php Строка: 1
+++++++++++++
+[2023-08-13 21:02:07] Текст ошибки: Undefined variable $_SESSION Файл: C:\OSPanel\domains\site1.local\app\controllers\postController.php Строка: 15
+++++++++++++
+[2023-08-13 21:05:19] Текст ошибки: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'value' in 'field list' Файл: C:\OSPanel\domains\site1.local\vendor\site1\libs\rb.php Строка: 838
+++++++++++++
+[2023-08-13 21:06:03] Текст ошибки: Контроллер <b>app\controllers\bootstrapController</b> не найден! Файл: C:\OSPanel\domains\site1.local\vendor\site1\core\Router.php Строка: 88
+++++++++++++
+[2023-08-13 21:08:43] Текст ошибки: Uncaught TypeError: site1\core\base\ErrorHandler::exceptionHandler(): Argument #1 ($ex) must be of type Exception, Error given in C:\OSPanel\domains\site1.local\vendor\site1\core\base\ErrorHandler.php:62
+Stack trace:
+#0 [internal function]: site1\core\base\ErrorHandler::exceptionHandler()
+#1 {main}
+  thrown Файл: C:\OSPanel\domains\site1.local\vendor\site1\core\base\ErrorHandler.php Строка: 62
+++++++++++++
+[2023-08-13 21:09:13] Текст ошибки: Uncaught TypeError: site1\core\base\ErrorHandler::exceptionHandler(): Argument #1 ($ex) must be of type Exception, Error given in C:\OSPanel\domains\site1.local\vendor\site1\core\base\ErrorHandler.php:62
+Stack trace:
+#0 [internal function]: site1\core\base\ErrorHandler::exceptionHandler()
+#1 {main}
+  thrown Файл: C:\OSPanel\domains\site1.local\vendor\site1\core\base\ErrorHandler.php Строка: 62
+++++++++++++
+[2023-08-13 21:09:15] Текст ошибки: Uncaught TypeError: site1\core\base\ErrorHandler::exceptionHandler(): Argument #1 ($ex) must be of type Exception, Error given in C:\OSPanel\domains\site1.local\vendor\site1\core\base\ErrorHandler.php:62
+Stack trace:
+#0 [internal function]: site1\core\base\ErrorHandler::exceptionHandler()
+#1 {main}
+  thrown Файл: C:\OSPanel\domains\site1.local\vendor\site1\core\base\ErrorHandler.php Строка: 62
+++++++++++++
+[2023-08-13 21:11:31] Текст ошибки: Uncaught TypeError: site1\core\base\ErrorHandler::exceptionHandler(): Argument #1 ($ex) must be of type Exception, Error given in C:\OSPanel\domains\site1.local\vendor\site1\core\base\ErrorHandler.php:62
+Stack trace:
+#0 [internal function]: site1\core\base\ErrorHandler::exceptionHandler()
+#1 {main}
+  thrown Файл: C:\OSPanel\domains\site1.local\vendor\site1\core\base\ErrorHandler.php Строка: 62
+++++++++++++
+[2023-08-13 21:11:34] Текст ошибки: Uncaught TypeError: site1\core\base\ErrorHandler::exceptionHandler(): Argument #1 ($ex) must be of type Exception, Error given in C:\OSPanel\domains\site1.local\vendor\site1\core\base\ErrorHandler.php:62
+Stack trace:
+#0 [internal function]: site1\core\base\ErrorHandler::exceptionHandler()
+#1 {main}
+  thrown Файл: C:\OSPanel\domains\site1.local\vendor\site1\core\base\ErrorHandler.php Строка: 62
+++++++++++++
+[2023-08-13 21:11:54] Текст ошибки: Контроллер <b>app\controllers\bootstrapController</b> не найден! Файл: C:\OSPanel\domains\site1.local\vendor\site1\core\Router.php Строка: 88
+++++++++++++
+[2023-08-13 21:12:32] Текст ошибки: Uncaught TypeError: site1\core\base\ErrorHandler::exceptionHandler(): Argument #1 ($ex) must be of type Exception, Error given in C:\OSPanel\domains\site1.local\vendor\site1\core\base\ErrorHandler.php:62
+Stack trace:
+#0 [internal function]: site1\core\base\ErrorHandler::exceptionHandler()
+#1 {main}
+  thrown Файл: C:\OSPanel\domains\site1.local\vendor\site1\core\base\ErrorHandler.php Строка: 62
+++++++++++++
+[2023-08-13 21:13:17] Текст ошибки: Контроллер <b>app\controllers\bootstrapController</b> не найден! Файл: C:\OSPanel\domains\site1.local\vendor\site1\core\Router.php Строка: 88
+++++++++++++
+[2023-08-13 21:13:38] Текст ошибки: Undefined array key "login" Файл: C:\OSPanel\domains\site1.local\app\controllers\postController.php Строка: 23
+++++++++++++
+[2023-08-13 21:14:19] Текст ошибки: Контроллер <b>app\controllers\bootstrapController</b> не найден! Файл: C:\OSPanel\domains\site1.local\vendor\site1\core\Router.php Строка: 88
+++++++++++++
+[2023-08-13 21:14:58] Текст ошибки: Контроллер <b>app\controllers\bootstrapController</b> не найден! Файл: C:\OSPanel\domains\site1.local\vendor\site1\core\Router.php Строка: 88
+++++++++++++
+[2023-08-13 21:15:40] Текст ошибки: Контроллер <b>app\controllers\bootstrapController</b> не найден! Файл: C:\OSPanel\domains\site1.local\vendor\site1\core\Router.php Строка: 88
+++++++++++++
+[2023-08-13 21:16:08] Текст ошибки: Контроллер <b>app\controllers\bootstrapController</b> не найден! Файл: C:\OSPanel\domains\site1.local\vendor\site1\core\Router.php Строка: 88
+++++++++++++
+[2023-08-13 21:20:45] Текст ошибки: Контроллер <b>app\controllers\bootstrapController</b> не найден! Файл: C:\OSPanel\domains\site1.local\vendor\site1\core\Router.php Строка: 88
+++++++++++++
+[2023-08-13 21:24:18] Текст ошибки: Uncaught TypeError: site1\core\base\ErrorHandler::exceptionHandler(): Argument #1 ($ex) must be of type Exception, Error given in C:\OSPanel\domains\site1.local\vendor\site1\core\base\ErrorHandler.php:62
+Stack trace:
+#0 [internal function]: site1\core\base\ErrorHandler::exceptionHandler()
+#1 {main}
+  thrown Файл: C:\OSPanel\domains\site1.local\vendor\site1\core\base\ErrorHandler.php Строка: 62
+++++++++++++
+[2023-08-13 21:26:35] Текст ошибки: Контроллер <b>app\controllers\bootstrapController</b> не найден! Файл: C:\OSPanel\domains\site1.local\vendor\site1\core\Router.php Строка: 88
+++++++++++++
+[2023-08-13 21:26:56] Текст ошибки: Контроллер <b>app\controllers\bootstrapController</b> не найден! Файл: C:\OSPanel\domains\site1.local\vendor\site1\core\Router.php Строка: 88
+++++++++++++
+[2023-08-13 21:26:58] Текст ошибки: Контроллер <b>app\controllers\bootstrapController</b> не найден! Файл: C:\OSPanel\domains\site1.local\vendor\site1\core\Router.php Строка: 88
+++++++++++++
+[2023-08-13 21:26:59] Текст ошибки: Контроллер <b>app\controllers\bootstrapController</b> не найден! Файл: C:\OSPanel\domains\site1.local\vendor\site1\core\Router.php Строка: 88
+++++++++++++
+[2023-08-13 21:27:01] Текст ошибки: Контроллер <b>app\controllers\bootstrapController</b> не найден! Файл: C:\OSPanel\domains\site1.local\vendor\site1\core\Router.php Строка: 88
+++++++++++++
+[2023-08-13 21:27:01] Текст ошибки: Контроллер <b>app\controllers\bootstrapController</b> не найден! Файл: C:\OSPanel\domains\site1.local\vendor\site1\core\Router.php Строка: 88
+++++++++++++
+[2023-08-13 21:27:05] Текст ошибки: Контроллер <b>app\controllers\bootstrapController</b> не найден! Файл: C:\OSPanel\domains\site1.local\vendor\site1\core\Router.php Строка: 88
+++++++++++++
+[2023-08-13 21:27:07] Текст ошибки: Контроллер <b>app\controllers\bootstrapController</b> не найден! Файл: C:\OSPanel\domains\site1.local\vendor\site1\core\Router.php Строка: 88
+++++++++++++
+[2023-08-13 21:27:08] Текст ошибки: Контроллер <b>app\controllers\bootstrapController</b> не найден! Файл: C:\OSPanel\domains\site1.local\vendor\site1\core\Router.php Строка: 88
+++++++++++++
+[2023-08-13 21:27:10] Текст ошибки: Контроллер <b>app\controllers\bootstrapController</b> не найден! Файл: C:\OSPanel\domains\site1.local\vendor\site1\core\Router.php Строка: 88
+++++++++++++
+[2023-08-13 21:37:54] Текст ошибки: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens Файл: C:\OSPanel\domains\site1.local\vendor\site1\libs\rb.php Строка: 838
+++++++++++++
+[2023-08-14 18:55:38] Текст ошибки: Страница не найдена Файл: C:\OSPanel\domains\site1.local\vendor\site1\core\Router.php Строка: 62
+++++++++++++
+[2023-08-14 18:56:16] Текст ошибки: Undefined array key "data" Файл: C:\OSPanel\domains\site1.local\app\controllers\mainController.php Строка: 15
+++++++++++++
+[2023-08-14 18:56:53] Текст ошибки: Контроллер <b>app\controllers\bootstrapController</b> не найден! Файл: C:\OSPanel\domains\site1.local\vendor\site1\core\Router.php Строка: 88
+++++++++++++
+[2023-08-14 19:00:02] Текст ошибки: Undefined array key "admin" Файл: C:\OSPanel\domains\site1.local\app\controllers\userController.php Строка: 11
+++++++++++++
+[2023-08-14 19:10:46] Текст ошибки: Undefined array key "admin" Файл: C:\OSPanel\domains\site1.local\app\controllers\userController.php Строка: 11
+++++++++++++
+[2023-08-14 19:19:15] Текст ошибки: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens Файл: C:\OSPanel\domains\site1.local\vendor\site1\libs\rb.php Строка: 838
+++++++++++++
+[2023-08-14 19:19:39] Текст ошибки: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens Файл: C:\OSPanel\domains\site1.local\vendor\site1\libs\rb.php Строка: 838
+++++++++++++
+[2023-08-14 19:20:13] Текст ошибки: Undefined array key 0 Файл: C:\OSPanel\domains\site1.local\app\controllers\postController.php Строка: 23
+++++++++++++
+[2023-08-14 19:21:01] Текст ошибки: Undefined array key 0 Файл: C:\OSPanel\domains\site1.local\app\controllers\postController.php Строка: 23
+++++++++++++
+[2023-08-14 19:21:02] Текст ошибки: Undefined array key 0 Файл: C:\OSPanel\domains\site1.local\app\controllers\postController.php Строка: 23
+++++++++++++
+[2023-08-14 19:21:05] Текст ошибки: Контроллер <b>app\controllers\bootstrapController</b> не найден! Файл: C:\OSPanel\domains\site1.local\vendor\site1\core\Router.php Строка: 88
+++++++++++++
+[2023-08-14 19:21:35] Текст ошибки: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens Файл: C:\OSPanel\domains\site1.local\vendor\site1\libs\rb.php Строка: 838
+++++++++++++
+[2023-08-14 19:24:55] Текст ошибки: Контроллер <b>app\controllers\bootstrapController</b> не найден! Файл: C:\OSPanel\domains\site1.local\vendor\site1\core\Router.php Строка: 88
+++++++++++++
+[2023-08-14 19:29:30] Текст ошибки: Контроллер <b>app\controllers\bootstrapController</b> не найден! Файл: C:\OSPanel\domains\site1.local\vendor\site1\core\Router.php Строка: 88
+++++++++++++
+[2023-08-14 19:31:01] Текст ошибки: Контроллер <b>app\controllers\bootstrapController</b> не найден! Файл: C:\OSPanel\domains\site1.local\vendor\site1\core\Router.php Строка: 88
+++++++++++++
+[2023-08-14 19:31:45] Текст ошибки: Контроллер <b>app\controllers\bootstrapController</b> не найден! Файл: C:\OSPanel\domains\site1.local\vendor\site1\core\Router.php Строка: 88
+++++++++++++
+[2023-08-14 19:32:39] Текст ошибки: Контроллер <b>app\controllers\bootstrapController</b> не найден! Файл: C:\OSPanel\domains\site1.local\vendor\site1\core\Router.php Строка: 88
+++++++++++++
+[2023-08-14 19:33:34] Текст ошибки: Undefined array key "admin" Файл: C:\OSPanel\domains\site1.local\app\views\inc\headerPost.php Строка: 2
+++++++++++++
+[2023-08-14 19:33:52] Текст ошибки: Контроллер <b>app\controllers\bootstrapController</b> не найден! Файл: C:\OSPanel\domains\site1.local\vendor\site1\core\Router.php Строка: 88
+++++++++++++
+[2023-08-14 19:49:42] Текст ошибки: Контроллер <b>app\controllers\bootstrapController</b> не найден! Файл: C:\OSPanel\domains\site1.local\vendor\site1\core\Router.php Строка: 88
+++++++++++++
+[2023-08-14 19:50:49] Текст ошибки: Контроллер <b>app\controllers\bootstrapController</b> не найден! Файл: C:\OSPanel\domains\site1.local\vendor\site1\core\Router.php Строка: 88
+++++++++++++
+[2023-08-14 19:51:27] Текст ошибки: Undefined array key "admin" Файл: C:\OSPanel\domains\site1.local\app\views\inc\headerPost.php Строка: 2
+++++++++++++
+[2023-08-14 19:54:08] Текст ошибки: Контроллер <b>app\controllers\bootstrapController</b> не найден! Файл: C:\OSPanel\domains\site1.local\vendor\site1\core\Router.php Строка: 88
+++++++++++++
+[2023-08-14 20:02:03] Текст ошибки: Undefined array key "admin" Файл: C:\OSPanel\domains\site1.local\app\views\inc\headerPost.php Строка: 2
+++++++++++++
+[2023-08-14 20:03:00] Текст ошибки: Undefined array key "admin" Файл: C:\OSPanel\domains\site1.local\app\views\inc\headerPost.php Строка: 2
+++++++++++++
+[2023-08-14 20:03:20] Текст ошибки: Undefined array key "admin" Файл: C:\OSPanel\domains\site1.local\app\views\inc\headerPost.php Строка: 2
+++++++++++++
+[2023-08-14 20:04:11] Текст ошибки: Undefined array key "admin" Файл: C:\OSPanel\domains\site1.local\app\views\inc\headerPost.php Строка: 2
+++++++++++++
+[2023-08-14 20:07:24] Текст ошибки: Контроллер <b>app\controllers\bootstrapController</b> не найден! Файл: C:\OSPanel\domains\site1.local\vendor\site1\core\Router.php Строка: 88
+++++++++++++
+[2023-08-14 20:07:39] Текст ошибки: Контроллер <b>app\controllers\bootstrapController</b> не найден! Файл: C:\OSPanel\domains\site1.local\vendor\site1\core\Router.php Строка: 88
+++++++++++++
+[2023-08-14 20:08:01] Текст ошибки: Контроллер <b>app\controllers\bootstrapController</b> не найден! Файл: C:\OSPanel\domains\site1.local\vendor\site1\core\Router.php Строка: 88
+++++++++++++
+[2023-08-14 20:09:08] Текст ошибки: Контроллер <b>app\controllers\bootstrapController</b> не найден! Файл: C:\OSPanel\domains\site1.local\vendor\site1\core\Router.php Строка: 88
+++++++++++++
+[2023-08-14 20:09:15] Текст ошибки: Контроллер <b>app\controllers\bootstrapController</b> не найден! Файл: C:\OSPanel\domains\site1.local\vendor\site1\core\Router.php Строка: 88
+++++++++++++
+[2023-08-14 20:09:27] Текст ошибки: Контроллер <b>app\controllers\bootstrapController</b> не найден! Файл: C:\OSPanel\domains\site1.local\vendor\site1\core\Router.php Строка: 88
+++++++++++++
+[2023-08-14 20:09:28] Текст ошибки: Контроллер <b>app\controllers\bootstrapController</b> не найден! Файл: C:\OSPanel\domains\site1.local\vendor\site1\core\Router.php Строка: 88
+++++++++++++
+[2023-08-14 20:11:58] Текст ошибки: Undefined array key 0 Файл: C:\OSPanel\domains\site1.local\app\controllers\postController.php Строка: 23
+++++++++++++
+[2023-08-14 20:12:04] Текст ошибки: Контроллер <b>app\controllers\bootstrapController</b> не найден! Файл: C:\OSPanel\domains\site1.local\vendor\site1\core\Router.php Строка: 88
+++++++++++++
+[2023-08-14 20:12:05] Текст ошибки: Контроллер <b>app\controllers\bootstrapController</b> не найден! Файл: C:\OSPanel\domains\site1.local\vendor\site1\core\Router.php Строка: 88
+++++++++++++
+[2023-08-14 20:14:23] Текст ошибки: Undefined variable $_SESSION Файл: C:\OSPanel\domains\site1.local\app\controllers\userController.php Строка: 47
+++++++++++++
+[2023-08-14 20:15:00] Текст ошибки: Undefined array key 0 Файл: C:\OSPanel\domains\site1.local\app\controllers\postController.php Строка: 23
+++++++++++++
+[2023-08-14 20:15:06] Текст ошибки: Undefined array key 0 Файл: C:\OSPanel\domains\site1.local\app\controllers\postController.php Строка: 23
+++++++++++++
+[2023-08-14 20:16:01] Текст ошибки: Undefined array key 0 Файл: C:\OSPanel\domains\site1.local\app\controllers\postController.php Строка: 23
+++++++++++++
+[2023-08-14 20:16:02] Текст ошибки: Undefined array key 0 Файл: C:\OSPanel\domains\site1.local\app\controllers\postController.php Строка: 23
+++++++++++++
+[2023-08-14 20:17:22] Текст ошибки: Контроллер <b>app\controllers\bootstrapController</b> не найден! Файл: C:\OSPanel\domains\site1.local\vendor\site1\core\Router.php Строка: 88
+++++++++++++
+[2023-08-14 20:18:35] Текст ошибки: Undefined variable $_SESSION Файл: C:\OSPanel\domains\site1.local\app\controllers\userController.php Строка: 47
+++++++++++++
+[2023-08-14 20:19:13] Текст ошибки: Undefined variable $_SESSION Файл: C:\OSPanel\domains\site1.local\app\controllers\postController.php Строка: 17
+++++++++++++
+[2023-08-14 20:19:22] Текст ошибки: Undefined variable $_SESSION Файл: C:\OSPanel\domains\site1.local\app\controllers\postController.php Строка: 17
+++++++++++++
+[2023-08-14 20:20:10] Текст ошибки: Контроллер <b>app\controllers\bootstrapController</b> не найден! Файл: C:\OSPanel\domains\site1.local\vendor\site1\core\Router.php Строка: 88
+++++++++++++
+[2023-08-14 20:20:13] Текст ошибки: Контроллер <b>app\controllers\bootstrapController</b> не найден! Файл: C:\OSPanel\domains\site1.local\vendor\site1\core\Router.php Строка: 88
+++++++++++++
+[2023-08-14 20:20:45] Текст ошибки: Контроллер <b>app\controllers\bootstrapController</b> не найден! Файл: C:\OSPanel\domains\site1.local\vendor\site1\core\Router.php Строка: 88
+++++++++++++
+[2023-08-14 20:25:56] Текст ошибки: Undefined variable $_SESSION Файл: C:\OSPanel\domains\site1.local\app\controllers\userController.php Строка: 45
+++++++++++++
+[2023-08-14 20:30:26] Текст ошибки: Undefined array key "login" Файл: C:\OSPanel\domains\site1.local\app\models\user.php Строка: 74
+++++++++++++
+[2023-08-14 20:31:59] Текст ошибки: Undefined array key "login" Файл: C:\OSPanel\domains\site1.local\app\models\user.php Строка: 74
+++++++++++++
+[2023-08-14 20:32:00] Текст ошибки: Undefined array key "login" Файл: C:\OSPanel\domains\site1.local\app\models\user.php Строка: 74
+++++++++++++
+[2023-08-14 20:33:19] Текст ошибки: Undefined array key "login" Файл: C:\OSPanel\domains\site1.local\app\models\user.php Строка: 74
+++++++++++++
+[2023-08-14 20:33:20] Текст ошибки: Undefined array key "login" Файл: C:\OSPanel\domains\site1.local\app\models\user.php Строка: 74
+++++++++++++
+[2023-08-14 20:33:39] Текст ошибки: Undefined array key "login" Файл: C:\OSPanel\domains\site1.local\app\models\user.php Строка: 74
+++++++++++++
+[2023-08-14 20:38:13] Текст ошибки: Undefined variable $_SESSION Файл: C:\OSPanel\domains\site1.local\app\models\user.php Строка: 82
+++++++++++++
+[2023-08-14 20:39:30] Текст ошибки: Undefined variable $_SESSION Файл: C:\OSPanel\domains\site1.local\app\controllers\userController.php Строка: 49
+++++++++++++
+[2023-08-14 20:46:23] Текст ошибки: Undefined array key "login" Файл: C:\OSPanel\domains\site1.local\app\models\user.php Строка: 74
+++++++++++++
+[2023-08-14 20:48:28] Текст ошибки: Undefined array key "login" Файл: C:\OSPanel\domains\site1.local\app\models\user.php Строка: 74
+++++++++++++
+[2023-08-14 20:49:15] Текст ошибки: Undefined array key "login" Файл: C:\OSPanel\domains\site1.local\app\models\user.php Строка: 74
+++++++++++++
+[2023-08-14 20:51:00] Текст ошибки: Контроллер <b>app\controllers\bootstrapController</b> не найден! Файл: C:\OSPanel\domains\site1.local\vendor\site1\core\Router.php Строка: 88
+++++++++++++
+[2023-08-14 20:51:42] Текст ошибки: Контроллер <b>app\controllers\bootstrapController</b> не найден! Файл: C:\OSPanel\domains\site1.local\vendor\site1\core\Router.php Строка: 88
+++++++++++++
+[2023-08-14 20:51:58] Текст ошибки: Контроллер <b>app\controllers\bootstrapController</b> не найден! Файл: C:\OSPanel\domains\site1.local\vendor\site1\core\Router.php Строка: 88
+++++++++++++
+[2023-08-14 20:52:32] Текст ошибки: Контроллер <b>app\controllers\bootstrapController</b> не найден! Файл: C:\OSPanel\domains\site1.local\vendor\site1\core\Router.php Строка: 88
+++++++++++++
+[2023-08-14 20:52:39] Текст ошибки: Контроллер <b>app\controllers\bootstrapController</b> не найден! Файл: C:\OSPanel\domains\site1.local\vendor\site1\core\Router.php Строка: 88
+++++++++++++
+[2023-08-14 20:52:40] Текст ошибки: Контроллер <b>app\controllers\bootstrapController</b> не найден! Файл: C:\OSPanel\domains\site1.local\vendor\site1\core\Router.php Строка: 88
+++++++++++++
+[2023-08-14 20:52:42] Текст ошибки: Контроллер <b>app\controllers\bootstrapController</b> не найден! Файл: C:\OSPanel\domains\site1.local\vendor\site1\core\Router.php Строка: 88
+++++++++++++
+[2023-08-14 20:52:42] Текст ошибки: Контроллер <b>app\controllers\bootstrapController</b> не найден! Файл: C:\OSPanel\domains\site1.local\vendor\site1\core\Router.php Строка: 88
+++++++++++++
+[2023-08-14 20:53:33] Текст ошибки: Контроллер <b>app\controllers\bootstrapController</b> не найден! Файл: C:\OSPanel\domains\site1.local\vendor\site1\core\Router.php Строка: 88
+++++++++++++
+[2023-08-14 20:54:19] Текст ошибки: Контроллер <b>app\controllers\bootstrapController</b> не найден! Файл: C:\OSPanel\domains\site1.local\vendor\site1\core\Router.php Строка: 88
+++++++++++++
+[2023-08-14 20:55:07] Текст ошибки: Undefined array key 0 Файл: C:\OSPanel\domains\site1.local\app\controllers\detailedController.php Строка: 16
+++++++++++++
+[2023-08-14 20:55:10] Текст ошибки: Undefined array key 0 Файл: C:\OSPanel\domains\site1.local\app\controllers\detailedController.php Строка: 16
+++++++++++++
+[2023-08-14 20:55:27] Текст ошибки: Контроллер <b>app\controllers\bootstrapController</b> не найден! Файл: C:\OSPanel\domains\site1.local\vendor\site1\core\Router.php Строка: 88
+++++++++++++
+[2023-08-14 20:55:55] Текст ошибки: Контроллер <b>app\controllers\bootstrapController</b> не найден! Файл: C:\OSPanel\domains\site1.local\vendor\site1\core\Router.php Строка: 88
+++++++++++++
+[2023-08-14 20:56:53] Текст ошибки: Контроллер <b>app\controllers\bootstrapController</b> не найден! Файл: C:\OSPanel\domains\site1.local\vendor\site1\core\Router.php Строка: 88
+++++++++++++
+[2023-08-14 20:56:54] Текст ошибки: Контроллер <b>app\controllers\bootstrapController</b> не найден! Файл: C:\OSPanel\domains\site1.local\vendor\site1\core\Router.php Строка: 88
+++++++++++++
+[2023-08-14 20:57:10] Текст ошибки: Контроллер <b>app\controllers\bootstrapController</b> не найден! Файл: C:\OSPanel\domains\site1.local\vendor\site1\core\Router.php Строка: 88
+++++++++++++
+[2023-08-14 20:57:46] Текст ошибки: Контроллер <b>app\controllers\bootstrapController</b> не найден! Файл: C:\OSPanel\domains\site1.local\vendor\site1\core\Router.php Строка: 88
+++++++++++++
+[2023-08-14 20:59:04] Текст ошибки: Контроллер <b>app\controllers\bootstrapController</b> не найден! Файл: C:\OSPanel\domains\site1.local\vendor\site1\core\Router.php Строка: 88
+++++++++++++
+[2023-08-14 20:59:05] Текст ошибки: Контроллер <b>app\controllers\bootstrapController</b> не найден! Файл: C:\OSPanel\domains\site1.local\vendor\site1\core\Router.php Строка: 88
+++++++++++++

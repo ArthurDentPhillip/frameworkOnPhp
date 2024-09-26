@@ -1,0 +1,12 @@
+{
+    "name": "manyh/site1.local",
+    "autoload": {
+        "psr-4": {
+            "site1\\":"vendor/site1",
+	"app\\": "app" 
+        }
+    },
+    "require": {
+        "vlucas/valitron": "^1.4"
+    }
+}

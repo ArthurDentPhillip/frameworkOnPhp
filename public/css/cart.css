@@ -1,0 +1,35 @@
+.card-title{
+    margin-bottom: 2% !important;
+}
+
+.card-text{
+    margin-bottom: -1% !important;
+}
+
+.btn{
+    margin-top: 3% !important;
+}
+
+.costText{
+    margin-top: 1%;
+}
+
+.costText span{
+    color:brown;
+    font-weight: 600;
+}
+
+.col_height{
+    object-fit: cover !important;
+    height: 300px !important;
+}
+
+
+.costBlock{
+    margin-top: 3% !important;
+}
+
+.sale{
+    width: 150px !important;
+    margin-top: -2% !important;
+}
